@@ -1,7 +1,5 @@
 let mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://aniketikhar88:aniket1811@cluster0.m7rzc.mongodb.net/');
-
 let userSchema = new mongoose.Schema({
   name: String,
   username: String,
