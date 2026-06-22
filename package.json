@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node --dns-result-order=ipv4first server.js",
-    "dev": "nodemon --exec \"node --dns-result-order=ipv4first\" server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
