@@ -4,6 +4,9 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const authRoutes = require("./routes/authRoutes");
 const projectRoutes = require("./routes/projectRoutes");
+const dns = require("dns");
+
+dns.setServers(["1.1.1.1", "8.8.8.8"])
 
 const app = express();
 
